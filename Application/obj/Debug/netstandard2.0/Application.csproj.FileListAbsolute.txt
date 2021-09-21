@@ -1,0 +1,14 @@
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Application.deps.json
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Application.dll
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Application.pdb
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Domain.dll
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Persistence.dll
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Domain.pdb
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\bin\Debug\netstandard2.0\Persistence.pdb
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.dll
+C:\Program Files\162Dev\DeAngelo-Stewart\Application\obj\Debug\netstandard2.0\Application.pdb
