@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\API\\API.csproj": {}
+    "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\API\\API.csproj": {
+    "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\API\\API.csproj",
+        "projectUniqueName": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\API\\API.csproj",
+        "projectPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\api\\API.csproj",
         "packagesPath": "C:\\Users\\DeaWeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\API\\obj\\",
+        "outputPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -119,6 +123,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
