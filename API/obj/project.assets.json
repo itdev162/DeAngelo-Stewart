@@ -12535,11 +12535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\api\\API.csproj",
+      "projectUniqueName": "C:\\Program Files\\162Dev\\deangelo-stewart\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\api\\API.csproj",
+      "projectPath": "C:\\Program Files\\162Dev\\deangelo-stewart\\api\\API.csproj",
       "packagesPath": "C:\\Users\\DeaWeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\api\\obj\\",
+      "outputPath": "C:\\Program Files\\162Dev\\deangelo-stewart\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12556,8 +12556,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Application\\Application.csproj": {
-              "projectPath": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Application\\Application.csproj"
+            "C:\\Program Files\\162Dev\\deangelo-stewart\\Application\\Application.csproj": {
+              "projectPath": "C:\\Program Files\\162Dev\\deangelo-stewart\\Application\\Application.csproj"
             }
           }
         }
