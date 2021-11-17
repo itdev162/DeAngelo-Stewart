@@ -4054,11 +4054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\DeaWeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\Persistence\\obj\\",
+      "outputPath": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4075,8 +4075,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Program Files\\162Dev\\DeAngelo-Stewart\\Domain\\Domain.csproj"
+            "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Program Files\\162Dev\\Deangelo-Stewart\\Domain\\Domain.csproj"
             }
           }
         }
