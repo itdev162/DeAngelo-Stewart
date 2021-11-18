@@ -1,9 +1,5 @@
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #723cc9;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +15,31 @@
 
 .App-content {
   margin: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #3347b8;
+}
+
+nav a {
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+button {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #339db8;
+  border-color: #3c62c9;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3c85c9;
 }

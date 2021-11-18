@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import {v4 as uuid} from "uuid";
 import moment from 'moment';
 import { useHistory } from 'react-router-dom';
 import './styles.css';
 
-const CreatePost = ({ onPostCreated }) => {
+const EditPost = ({ post, onPostUpdated }) => {
   let history = useHistory();
   const [postData, setPostData] = useState({
-    title: '',
-    body: ''
+    title: post.title,
+    body: post.body
   });
   const { title, body } = postData;
 
@@ -22,12 +21,12 @@ const CreatePost = ({ onPostCreated }) => {
     });
   };
 
-  const create = async () => {
+  const update = async () => {
     if (!title || !body) {
       console.log('Title and body are required');
     } else {
       const newPost = {
-        id: uuid.v4,
+        id: post.id,
         title: title,
         body: body,
         date: moment().toISOString()
@@ -42,14 +41,14 @@ const CreatePost = ({ onPostCreated }) => {
 
         // Create the post
         const body = JSON.stringify(newPost);
-        const res = await axios.post(
+        const res = await axios.put(
           'http://localhost:5000/api/posts',
           body,
           config
         );
 
         // Call the handler and redirect
-        onPostCreated(res.data);
+        onPostUpdated(res.data);
         history.push('/');
       } catch (error) {
         console.error(`Error creating post: ${error.response.data}`);
@@ -59,7 +58,7 @@ const CreatePost = ({ onPostCreated }) => {
 
   return (
     <div className="form-container">
-      <h2>Create New Post</h2>
+      <h2>Edit Post</h2>
       <input
         name="title"
         type="text"
@@ -74,9 +73,9 @@ const CreatePost = ({ onPostCreated }) => {
         value={body}
         onChange={e => onChange(e)}
       ></textarea>
-      <button onClick={() => create()}>Submit</button>
+      <button onClick={() => update()}>Submit</button>
     </div>
   );
 };
 
-export default CreatePost;
+export default EditPost;
